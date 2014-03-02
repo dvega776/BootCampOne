@@ -1,0 +1,75 @@
+
+<aside
+{ 
+float: right;
+  font-family: Arial, "Ms Trebuchet",sans-serif;
+  
+}
+section#sidebar {
+	float: left;
+	width: 25%;
+} 
+<selection>
+ 	<table>
+ 		<thead>
+ 			<tr>
+ 				<th>Firstcol</th>
+ 				<th>secondcol</th>
+ 			</tr>
+ 	</thead>
+ 	<tbody>
+ 		<tr>
+ 			<td>bike!</td>
+ 			<td>skate!</td>
+ 			<tr>
+ 			</tbody>
+ 		</table>
+aside#noside {
+	float:center;
+}
+ol{
+	list-style: disc;
+	color: green;}
+ul{
+		list-style:square;
+		color:green;
+	}
+p,header,li,body,ul,footer{
+
+
+
+{
+	float: right;
+}
+img
+{
+	position:fixed;
+	left: 200px;
+	top: 200px;
+}
+}
+div {
+	position: absolute;
+	left: 100px
+	top: 100px
+.center{
+margin-right: auto;
+margin-left: 0 50%;
+}
+a:hover;{
+	color: green;
+	background-color:green;
+}
+a:link{
+	color:green;
+}
+
+a:active{
+	color:green;
+}
+tr:nth-of-type(odd);{
+	color:blue;
+}
+thead{
+	background-color: : white;
+}
