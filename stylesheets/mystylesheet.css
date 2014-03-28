@@ -1,29 +1,14 @@
 
 <aside
 { 
-float: right;
-  font-family: Arial, "Ms Trebuchet",sans-serif;
+float:
   
 }
 section#sidebar {
 	float: left;
 	width: 25%;
 } 
-<selection>
- 	<table>
- 		<thead>
- 			<tr>
- 				<th>Firstcol</th>
- 				<th>secondcol</th>
- 			</tr>
- 	</thead>
- 	<tbody>
- 		<tr>
- 			<td>bike!</td>
- 			<td>skate!</td>
- 			<tr>
- 			</tbody>
- 		</table>
+
 aside#noside {
 	float:center;
 }
@@ -34,10 +19,7 @@ ul{
 		list-style:square;
 		color:green;
 	}
-p,header,li,body,ul,footer{
-
-
-
+p,header,li,body,ul,footer
 {
 	float: right;
 }
@@ -47,14 +29,21 @@ img
 	left: 200px;
 	top: 200px;
 }
-}
+
 div {
 	position: absolute;
 	left: 100px
 	top: 100px
+}
 .center{
 margin-right: auto;
 margin-left: 0 50%;
+}
+table#first
+{
+	position: fixed;
+	color: black;
+	font-size:20px;
 }
 a:hover;{
 	color: green;
@@ -66,10 +55,63 @@ a:link{
 
 a:active{
 	color:green;
+
 }
+table#best
+{
+	position: absolute;
+	bottom: 10px;
+	background-color: green;
+	border: 1px solid blue;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+th,td{
+	border: 2px solid black;
+}
+.bestrow{
+	border: 4px solid black;
+
+}
+.bestcol:first-child{
+	color: blue;
+
+}
+.bestcol:nth-child(3){
+	color: red;
+
+}
+.bestcol:nth-last-child{
+	background-color: blue;
+
+}
+
+}
+.bestcol:nth-last-child(3){
+			background-color: orange;}
+.bestcol:first-of-type{
+background-color:red;}
+tr#table_header{
+	background-color: green;
+}
+.firstrow:nth-of-type(odd){
+	background-color: yellow; 
+}
+
 tr:nth-of-type(odd);{
 	color:blue;
 }
 thead{
-	background-color: : white;
-}
+	background-color: red;}
+
+p:first-child{color:blue;}
+
+p:nth-child(2) (2n+1){color: red;}
+
+p:first-child{color:orange;}
+
+p:nth-child(2)(2n+1){color:purple;}
+
+p:nth-last-child(2){border-width:10px; border-style:groove; border-color: red}
+
